@@ -298,8 +298,8 @@ on charger
 on moto-charger
     setprop ro.board.platform msm8953
     trigger firmware_mounts_complete
-    start charge_only_mode
-    start thermal-com
+    start vendor.charge_only_mode
+    start vendor.thermal-com
 
 on property:ro.boot.dualsim=true
    setprop persist.radio.multisim.config dsds
