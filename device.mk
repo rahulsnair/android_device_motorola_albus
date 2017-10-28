@@ -420,6 +420,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     textclassifier.smartselection.bundle1
 
+# Treble
+# PRODUCT_FULL_TREBLE_OVERRIDE := true
+PRODUCT_PACKAGES += \
+    vndk-sp \
+
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
@@ -431,9 +436,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
-
-PRODUCT_PACKAGES += \
-    vndk-sp
 
 # Wifi
 PRODUCT_PACKAGES += \
