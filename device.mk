@@ -460,8 +460,8 @@ PRODUCT_COPY_FILES += \
 
 # ZAF
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/zaf/zaf_mot_imx362.json:system/etc/zaf/zaf_mot_imx362.json \
-    $(LOCAL_PATH)/configs/zaf/zaf_mot_s5k2l7.json:system/etc/zaf/zaf_mot_s5k2l7.json
+    $(LOCAL_PATH)/configs/zaf/zaf_mot_imx362.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_imx362.json \
+    $(LOCAL_PATH)/configs/zaf/zaf_mot_s5k2l7.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7.json
 
 # TEMP FIX
 PRODUCT_PACKAGES += \
