@@ -1,8 +1,13 @@
 get_prop(surfaceflinger, diag_prop);
 allow surfaceflinger perfd_data_file:sock_file write;
 allow surfaceflinger perfd_data_file:dir search;
+<<<<<<< HEAD
 allow surfaceflinger perfd:unix_stream_socket connectto;
 allow surfaceflinger diag_device:chr_file { read write open ioctl };
+=======
+# allow surfaceflinger perfd:unix_stream_socket connectto;
+allow surfaceflinger diag_device:chr_file { read write };
+>>>>>>> 97cd36a... potter: update sepolicy
 
 binder_call(surfaceflinger, hwservicemanager)
 
