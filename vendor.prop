@@ -2,6 +2,9 @@
 # system.prop for albus
 #
 
+# Navigation bar In some GSI nav bar isn't enabled so force it
+qemu.hw.mainkeys=0
+
 # Audio
 audio.deep_buffer.media=true
 af.fast_track_multiplier=1
