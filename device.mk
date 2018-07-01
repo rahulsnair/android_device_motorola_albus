@@ -124,16 +124,16 @@ PRODUCT_PACKAGES += \
     libshim_skia
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/msm8953_mot_albus_camera.xml:system/etc/camera/msm8953_mot_albus_camera.xml \
-    $(LOCAL_PATH)/configs/camera/mot_ov5695_chromatix.xml:system/etc/camera/mot_ov5695_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/mot_ov5695_ofilm_chromatix.xml:system/etc/camera/mot_ov5695_ofilm_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/mot_imx362_chromatix.xml:system/etc/camera/mot_imx362_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/mot_s5k2l7_chromatix.xml:system/etc/camera/mot_s5k2l7_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/mot_s5k2l7sa_chromatix.xml:system/etc/camera/mot_s5k2l7sa_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/mot_ov5695_ofilm_chromatix.xml:system/etc/camera/mot_ov5695_ofilm_chromatix.xml \
-    $(LOCAL_PATH)/configs/camera/com.motorola.camera/always_aware_ocr.json:system/etc/motorola/com.motorola.camera/always_aware_ocr.json \
-    $(LOCAL_PATH)/configs/camera/permissions/com.motorola.camerabgproc_library.xml:system/etc/permissions/com.motorola.camerabgproc_library.xml \
-    $(LOCAL_PATH)/configs/camera/permissions/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml
+    $(LOCAL_PATH)/configs/camera/msm8953_mot_albus_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8953_mot_albus_camera.xml \
+    $(LOCAL_PATH)/configs/camera/mot_ov5695_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov5695_chromatix.xml \
+    $(LOCAL_PATH)/configs/camera/mot_ov5695_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov5695_ofilm_chromatix.xml \
+    $(LOCAL_PATH)/configs/camera/mot_imx362_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_imx362_chromatix.xml \
+    $(LOCAL_PATH)/configs/camera/mot_s5k2l7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k2l7_chromatix.xml \
+    $(LOCAL_PATH)/configs/camera/mot_s5k2l7sa_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k2l7sa_chromatix.xml \
+    $(LOCAL_PATH)/configs/camera/mot_ov5695_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov5695_ofilm_chromatix.xml \
+    $(LOCAL_PATH)/configs/camera/com.motorola.camera/always_aware_ocr.json:$(TARGET_COPY_OUT_VENDOR)/etc/motorola/com.motorola.camera/always_aware_ocr.json \
+    $(LOCAL_PATH)/configs/camera/permissions/com.motorola.camerabgproc_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camerabgproc_library.xml \
+    $(LOCAL_PATH)/configs/camera/permissions/com.motorola.cameraone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.cameraone.xml
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
