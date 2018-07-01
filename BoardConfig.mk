@@ -223,7 +223,7 @@ LZMA_RAMDISK_TARGETS := recovery
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/vendor/sepolicy
 
 # Shim
 TARGET_LD_SHIM_LIBS := /vendor/bin/adspd|libshim_adsp.so:/vendor/lib64/libmdmcutback.so|libqsap_shim.so:/vendor/lib/libYuvSkia.so|libshim_skia.so:/vendor/lib/hw/audio.primary.msm8953.so|libtinycompress_vendor.so
