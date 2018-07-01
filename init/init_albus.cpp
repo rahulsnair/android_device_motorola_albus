@@ -85,10 +85,6 @@ void vendor_load_properties()
     std::string sku = android::base::GetProperty("ro.boot.hardware.sku", "");
     property_override_dual("ro.product.model", "ro.vendor.product.model", "Moto Z2 Play");
 
-    // fingerprint
-    property_override("ro.build.description", "albus-user 7.1.1 NPSS26.118-19-22 28 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "motorola/albus/albus:7.1.1/NPSS26.118-19-22/28:user/release-keys");
-
     // rmt_storage
     std::string device = android::base::GetProperty("ro.boot.device", "");
     std::string radio = android::base::GetProperty("ro.boot.radio", "");

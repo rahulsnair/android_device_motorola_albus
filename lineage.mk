@@ -37,4 +37,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Moto Z2 Play"
+    PRODUCT_NAME="Moto Z2 Play" \
+    PRIVATE_BUILD_DESC="albus-user 7.1.1 NPSS26.118-19-22 28 release-keys" \
+    BUILD_FINGERPRINT := motorola/albus/albus:7.1.1/NPSS26.118-19-22/28:user/release-keys
