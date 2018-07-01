@@ -70,7 +70,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_albus
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=30 msm_rtb.filter=0x237
-BOARD_KERNEL_CMDLINE += ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 vmalloc=350M
+BOARD_KERNEL_CMDLINE += ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 vmalloc=350M androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_PAGESIZE := 2048
@@ -226,7 +226,7 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Shim
-TARGET_LD_SHIM_LIBS := /system/vendor/bin/adspd|libshim_adsp.so:/system/vendor/lib64/libmdmcutback.so|libqsap_shim.so:/system/lib/libYuvSkia.so|libshim_skia.so:/system/vendor/lib/hw/audio.primary.msm8953.so|libtinycompress_vendor.so
+TARGET_LD_SHIM_LIBS := /vendor/bin/adspd|libshim_adsp.so:/vendor/lib64/libmdmcutback.so|libqsap_shim.so:/vendor/lib/libYuvSkia.so|libshim_skia.so:/vendor/lib/hw/audio.primary.msm8953.so|libtinycompress_vendor.so
 
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
@@ -244,3 +244,8 @@ WIFI_DRIVER_FW_PATH_STA          := "sta"
 WIFI_DRIVER_FW_PATH_P2P          := "p2p"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
+# Split selinux policy
+
+TARGET_COPY_OUT_VENDOR := vendor
+BOARD_VENDORIMAGE_PARTITION_SIZE := 665845760
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
