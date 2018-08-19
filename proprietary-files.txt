@@ -934,11 +934,11 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 
 # Media
-vendor/bin/vpplibraryfunctionaltest
-vendor/bin/vpplibraryunittest
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
+-vendor/lib/libgpustats.so
+vendor/lib/libI420colorconvert.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
 vendor/lib/libOmxAlacDecSw.so
@@ -951,29 +951,28 @@ vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
-vendor/lib/libomx-dts.so
-vendor/lib/libqomx_core.so
-vendor/lib/libqomx_jpegdec.so
-vendor/lib/libqomx_jpegenc.so
-vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libmm-color-convertor.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
-vendor/lib/libvpptestutils.so
-vendor/lib64/libOmxAacDec.so|21af7bd7cf04aa2891035ab7ea11da3cb6f24e22
-vendor/lib64/libOmxAlacDec.so|67cbbc705918eb9866635455903b436dd409e513
-vendor/lib64/libOmxAlacDecSw.so|51f5cb3275b8cced08333ce5d2a2991c0653d17c
-vendor/lib64/libOmxAmrDec.so|8b3057c1a8a3bac97956bec7062d239e30732ef4
-vendor/lib64/libOmxAmrwbplusDec.so|78a5c11d11a1e1a031385077da43feae325b2ba1
-vendor/lib64/libOmxApeDec.so|3d51d2ee45c64a3cb27d5262e745488e4951d1ad
-vendor/lib64/libOmxApeDecSw.so|f6b4ce7a355399db92b5e3992018cbe91314796f
-vendor/lib64/libOmxEvrcDec.so|d8bf0389936486c3d66ea72eb53096360a8118fa
-vendor/lib64/libOmxQcelp13Dec.so|ffbb8f8f3f6158bca27425adba425484efafec09
-vendor/lib64/libOmxVpp.so|2373683f8a46cb0173e761826d31d8cd6ad86c29
-vendor/lib64/libOmxWmaDec.so|96a5f49d70e4b386db0563679587d58eef277380
-vendor/lib64/libvpphvx.so|6d56eaa105cee91d38e01ff32f0de7833a5e8c4c
-vendor/lib64/libvpplibrary.so|76e4602922a6e6bdf7203de4c0ceae9b3aea823e
-vendor/lib64/libvpptestutils.so|f81f8abdd00becffbe64a0c7140df0ac94c93756
-
+vendor/lib/libvqzip.so
+vendor/lib64/libAlacSwDec.so
+vendor/lib64/libApeSwDec.so
+vendor/lib64/libFlacSwDec.so
+-vendor/lib64/libgpustats.so
+vendor/lib64/libI420colorconvert.so
+vendor/lib64/libOmxAacDec.so
+vendor/lib64/libOmxAlacDec.so
+vendor/lib64/libOmxAlacDecSw.so
+vendor/lib64/libOmxAmrDec.so
+vendor/lib64/libOmxAmrwbplusDec.so
+vendor/lib64/libOmxApeDec.so
+vendor/lib64/libOmxApeDecSw.so
+vendor/lib64/libOmxEvrcDec.so
+vendor/lib64/libOmxQcelp13Dec.so
+vendor/lib64/libOmxWmaDec.so
+vendor/lib64/libmm-color-convertor.so
+vendor/lib64/libvpphvx.so
+vendor/lib64/libvpplibrary.so
 
 # MMI
 vendor/lib/mmi_audio.so
