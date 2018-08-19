@@ -1016,25 +1016,32 @@ vendor/firmware/libpn548ad_fw.so
 vendor/bin/charge_only_mode
 
 # Perf
--framework/QPerformance.jar
-lib64/vendor.qti.hardware.perf@1.0.so|5b76341219310d268b0482f1b18d58fdb74780bb
+lib/libqti_performance.so
+lib/libqti-perfd-client_system.so
+lib/vendor.qti.hardware.perf@1.0.so
+lib64/libqti_performance.so
+lib64/libqti-perfd-client_system.so
+lib64/vendor.qti.hardware.perf@1.0.so
 vendor/bin/energy-awareness
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|372060407eacb7c4433171cc7b979c13ca1fb4f7
+vendor/bin/gamed
 vendor/bin/msm_irqbalance
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
-vendor/etc/msm_irqbalance.conf
+vendor/etc/perf/perfboostsconfig.xml
+vendor/lib/libfeedbackhandler.so
+vendor/lib/libperfgluelayer.so
+vendor/lib/libqti-gt-prop.so
+vendor/lib/libqti-perfd.so
 vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti_performance.so
+vendor/lib/libqti-util.so
 vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
-vendor/lib64/libperfgluelayer.so|e7fe98ba0870b8357dd19e99cbff5d74cc911496
-vendor/lib64/libqti-at.so|33d161df947dbab2eb7efb426a33519e04458503
-vendor/lib64/libqti-gt-prop.so|1140c8acdb18d1245b2220b3e50af6492828fd1d
-vendor/lib64/libqti-gt.so|e653019bca7df9371ee1ddc0d2424da7edfccb86
-vendor/lib64/libqti-perfd-client.so|8d9bf2c878d70159d0819667089cd63ac630a880
-vendor/lib64/libqti-perfd.so|1c8a3b3841f2e45f3838166bbfeb17956a01b3f3
-vendor/lib64/libqti_performance.so|fb2d489bbf29636a1d5ca4eccf517478c0b0c122
-vendor/lib64/libqtigef.so|283ea12aa7331f83ae29973ff300d8feccf0c7c3
-vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so|7cfab1f9675feb93543a65e290d76b3c31a7af63
+vendor/lib64/libfeedbackhandler.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libqti-gt-prop.so
+vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-perfd-client.so
+vendor/lib64/libqti-util.so
+vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
 
 # Peripheral manager
 vendor/bin/pm-proxy
@@ -1095,16 +1102,6 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libquipc_os_api.so
 vendor/lib64/libsmemlog.so
-
-# QTI
-vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar
-lib/vendor.qti.hardware.tui_comm@1.0.so
-lib64/vendor.qti.hardware.tui_comm@1.0.so|57fe95d486a3a286d98d8e63baa6c01597185eb8
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|b4a0a245048ee7dd6cb66c8954a1248fd7884a0b
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so|dcafa873cf8a7c5782d62acb607581bbc1f23f9a
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|8fef4db14a3cb9c5e4959738ab70f5ca6028caf1
 
 # Radio
 -vendor/app/datastatusnotification/datastatusnotification.apk|5eb21eb70be6d7e281fc5b7c4c0240a96aba6d00
