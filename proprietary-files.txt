@@ -1277,11 +1277,10 @@ vendor/lib64/libSubSystemShutdown.so|11baf3b7540d18959e032e172b8c971c49ed59b9
 vendor/lib64/libsubsystem_control.so|148c1ba181688ef01d9139cf3fed6f0bee77b4f0
 
 # Thermal
-vendor/bin/thermal-engine|8234f7c795d42893013c263750d099493366a00b
-vendor/lib/libthermalclient.so
-vendor/lib/libthermalioctl.so
-vendor/lib64/libthermalclient.so|162c9abed6a82d24d1482eaa7aa16e549f31f175
-vendor/lib64/libthermalioctl.so|1961f72cf620998ec6be1e2054f32b55721a2eb8
+vendor/bin/thermal-engine
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalioctl.so
 
 # Time services
 -app/TimeService/TimeService.apk
@@ -1314,7 +1313,6 @@ vendor/lib/libzxingcpp.so
 bin/radish
 lib/libadropbox.so
 lib/lib_mot_app6_metadata.so
-vendor/bin/ATFWD-daemon|1c592367aa2aa1e609b31ffacc416f69cd919ad5
 vendor/bin/akmd09912
 vendor/bin/esepmdaemon
 vendor/lib/hw/activity_recognition.msm8953.so
