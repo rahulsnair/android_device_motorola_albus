@@ -1283,10 +1283,10 @@ vendor/bin/thermal-engine
 vendor/lib64/libthermalioctl.so
 
 # Time services
--app/TimeService/TimeService.apk
-vendor/bin/time_daemon|8ea7d65a65c1d50afc6553ad52848b454c62563d
-vendor/lib/libtime_genoff.so
-vendor/lib64/libtime_genoff.so|7683a85cae9f17cd535e8960fceda1d6831074a0
+-vendor/app/TimeService/TimeService.apk
+vendor/bin/time_daemon
+-vendor/lib/libtime_genoff.so
+-vendor/lib64/libtime_genoff.so
 
 # Wi-Fi
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
