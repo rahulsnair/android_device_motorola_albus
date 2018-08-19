@@ -66,6 +66,8 @@ lib/libjni_trueportrait.so
 lib/libjni_truescanner_v2.so
 lib/libjni_ubifocus.so
 lib/libjson.so
+vendor/lib/libzaf_algs.so
+vendor/lib/libzaf_core.so
 lib/libmot-qc-fd-offline.so
 lib/libmot_lux_standardization.so
 lib/libqvrcamera_client.so
@@ -893,9 +895,6 @@ vendor/lib64/vendor.display.color@1.0_vendor.so|25c717f3004a5932dcbb2f55d5165c01
 vendor/lib64/vendor.display.postproc@1.0_vendor.so|503ef07fcfbbfcd8db096de79dfd822c8ada5e9b
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|d101774878c0374ad805d964c3d00c71b44456d9
 
-# IPA
-bin/ipacm-diag
-
 # IO Prefetcher
 lib64/vendor.qti.hardware.iop@1.0.so|4e6315eab00315e0a0a5fc67912c94e5a5478e75
 vendor/bin/hw/vendor.qti.hardware.iop@1.0-service|b9609cf76d5e8a52f27347a0182522663a124223
@@ -1270,12 +1269,6 @@ vendor/lib64/sensors.iio.so|518f631b66ce34167c76f66ac8a3e66ea348b2a8
 vendor/lib64/sensors.ssc.so|8cd1a03103d1bb6bf94b95e49b3547c237f51787
 vendor/lib64/sensors.tof.so|b0d62f9aad25b71e4c5ebdf11cfd98ef93cfcfa0
 
-# Subsystem
-vendor/lib/libSubSystemShutdown.so
-vendor/lib/libsubsystem_control.so
-vendor/lib64/libSubSystemShutdown.so|11baf3b7540d18959e032e172b8c971c49ed59b9
-vendor/lib64/libsubsystem_control.so|148c1ba181688ef01d9139cf3fed6f0bee77b4f0
-
 # Thermal
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
@@ -1303,11 +1296,6 @@ vendor/bin/xtwifi-inet-agent|f69bbc19b52f373c46d7d82615f87840f645330e
 vendor/lib/libxtwifi_ulp_adaptor.so
 vendor/lib64/libxtadapter.so|7705b2c895dfc91f459f9e69860bc312c16b4216
 vendor/lib64/libxtwifi_ulp_adaptor.so|d2e768c4d5f44a101b12ef668f8b7393a42541ce
-
-# Zaf
-vendor/lib/libzaf_algs.so
-vendor/lib/libzaf_core.so
-vendor/lib/libzxingcpp.so
 
 # Misc
 bin/radish
