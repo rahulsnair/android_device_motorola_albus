@@ -180,7 +180,8 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-lite
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service
 
 # limit dex2oat threads to improve thermals
 PRODUCT_PROPERTY_OVERRIDES += \
