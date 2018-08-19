@@ -211,13 +211,20 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0-impl-qti \
+    android.hardware.gnss@1.0-service-qti \
     libgnss \
     libgnsspps \
-    android.hardware.gnss@1.0-impl-qti \
-    android.hardware.gnss@1.0-impl \
-    android.hardware.gnss@1.0-service-qti \
-    libqsap_sdk \
-    libqsap_shim
+    libvehiclenetwork-native
+
+PRODUCT_PACKAGES += \
+    apdr.conf \
+    flp.conf \
+    gps.conf \
+    izat.conf \
+    lowi.conf \
+    sap.conf \
+    xtwifi.conf
 
 # health
 PRODUCT_PACKAGES += \
