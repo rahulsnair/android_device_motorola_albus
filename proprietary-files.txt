@@ -614,45 +614,40 @@ lib/libuiblur.so
 vendor/etc/permissions/com.qti.dpmframework.xml
 
 # DRM
-vendor/bin/qseecomd|b89e76dc4b6eafbd3eb44b2df3c8b597f441261e
-vendor/bin/qseeproxydaemon
-vendor/bin/qseeproxysampledaemon
-vendor/lib/libFIDOKeyProvisioning.so
-vendor/lib/libFidoCryptoJNI.so
-vendor/lib/libFileMux.so
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libStDrvInt.so
+vendor/bin/qseecomd
 vendor/lib/libcppf.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
 vendor/lib/liboemcrypto.so
-vendor/lib/libqisl.so
-vendor/lib/librpmb.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libssd.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/libGPreqcancel.so|68e022f61a7b7bc1ce93a9df5a68f5c062a8b2c8
-vendor/lib64/libGPreqcancel_svc.so|8029cc1fccfacceeb4945374eed6e3adb48c3af4
-vendor/lib64/libQSEEComAPI.so|612a1cd3d46ad402e90dccb3b71632abdf246eab
-vendor/lib64/libSecureUILib.so|68502cf4740ae61b626299f9997a057811c359de
-vendor/lib64/libStDrvInt.so|987a06865440e3c20ce3130d5e65d7bbe84a0c2b
-vendor/lib64/libdrmfs.so|f9f8bf91cc996232f6d0aea7eb1e24bf4439d5a6
-vendor/lib64/libdrmtime.so|d8906553bb249c2a08b41d85b5c9717e10b96c12
-vendor/lib64/libqisl.so|83eb6617d7f0a11593df45adb9d09e485abe14b6
-vendor/lib64/libqseed3.so|e06822d342c84d6c5412325ad316c3578b04d793
-vendor/lib64/librpmb.so|13103295f9f691dcb2fc32a3f1f7d0456f2f11aa
-vendor/lib64/libsecureui.so|96e8730968a044ecce63d478be9f0ce07c97c746
-vendor/lib64/libsecureui_svcsock.so|b18eaba3019428b6b2d92a33cd166924b20eca2d
-vendor/lib64/libspl.so|cebf7eb2a0baee9589ae616798ef5ab1b583a86c
-vendor/lib64/libssd.so|190bc3aa800a53c6edcb62013c0732b662882e2a
-vendor/lib64/mediadrm/libwvdrmengine.so|047331928b53726492313b299582a753ac211c40
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libsdedrm.so
+vendor/lib/libspl.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libqisl.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/librpmb.so
+vendor/lib64/libsdedrm.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libspl.so
+vendor/lib64/libssd.so
 
 # DRM - HDCP
 vendor/lib/libmm-hdcpmgr.so
-vendor/lib64/libmm-hdcpmgr.so|c32b2baa60f9cfbf755a4b66b812f19a27c9f968
+vendor/lib64/libmm-hdcpmgr.so
+
+# DRM - Qualcomm Trusted Execution Enviornment
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so
+
+# DRM - Widevine
+vendor/bin/hw/android.hardware.drm@1.0-service.widevine
+vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
+vendor/lib/libwvhidl.so
 
 # DSP - SVCE
 vendor/lib/libscveBlobDescriptor.so
