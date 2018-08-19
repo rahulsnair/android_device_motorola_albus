@@ -9,29 +9,17 @@ vendor/lib64/libacdbmapper.so|e3c2e065273c9f7d6bbd9649b5067c0462388243
 vendor/lib64/libacdbrtac.so|531e576dfb69be867fbf1e817d5211b7530da3a4
 
 # ADSP
-vendor/bin/adsprpcd|ef6c8f702b731812662dcb58f3def8761af80db8
-vendor/lib/libExtendedExtractor.so
+vendor/bin/adsprpcd
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsp_hvx_callback_skel.so
 vendor/lib/libadsp_hvx_stub.so
-vendor/lib/libadspd.so
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libexternal_dog_skel.so
-vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
-vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
-vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/rfsa/adsp/libscveTextReco_skel.so
-vendor/lib64/libadsp_default_listener.so|768f8381ba30d94fc7f796065957328d72061d13
-vendor/lib64/libadspd.so|5a2389e0d9dfb93199134230cef4967208695cb1
-vendor/lib64/libadsprpc.so|c53e29fcd4560c6aa043cd94c83c87d3c02e8aa0
+vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libadsprpc.so
+vendor/lib64/libfastcvadsp_stub.so
+vendor/lib64/libfastcvopt.so
 
 # Alarm
 vendor/lib/libalarmservice_jni.so
