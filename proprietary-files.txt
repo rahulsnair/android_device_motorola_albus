@@ -1044,10 +1044,10 @@ vendor/lib64/libqtigef.so|283ea12aa7331f83ae29973ff300d8feccf0c7c3
 vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so|7cfab1f9675feb93543a65e290d76b3c31a7af63
 
 # Peripheral manager
-lib64/libperipheral_client.so|ce9db3de0d367d1643bc175e1accb67bd2085b41
-vendor/bin/pm-proxy|db19d7ce5ad23e22d0372cfbe2f272a14a6cfa1a
+vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
+vendor/lib64/libperipheral_client.so
 
 # Permissions
 etc/xtra_root_cert.pem
