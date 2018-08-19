@@ -11,11 +11,6 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 
-# Alarm
-vendor/lib/libalarmservice_jni.so
-vendor/lib64/libalarmservice_jni.so|2791b868e4f145e05d3405b99e40692e87d0a3c6
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|8fef4db14a3cb9c5e4959738ab70f5ca6028caf1
-
 # AptX
 vendor/lib64/libaptX_encoder.so
 vendor/lib64/libaptXHD_encoder.so
@@ -1125,6 +1120,7 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|b4a0a245048ee7dd6cb66
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so|dcafa873cf8a7c5782d62acb607581bbc1f23f9a
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|8fef4db14a3cb9c5e4959738ab70f5ca6028caf1
 
 # Radio
 -app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1330,19 +1326,13 @@ vendor/lib/libmmparser_lite.so
 vendor/lib/libmot_afd.so
 vendor/lib/libmpbase.so
 vendor/lib/libscalar.so
-vendor/lib/libsdsprpc.so
-vendor/lib/libulp2.so
 vendor/lib/libunshorten.so
 vendor/lib/libvendorconn.so
-vendor/lib/libvqzip.so
 vendor/lib/libwbc_jni.so
 vendor/lib/libwfdavenhancements.so
 vendor/lib/libwfdmmsink.so
 vendor/lib/libwfduibcsink.so
 vendor/lib/libwfduibcsinkinterface.so
-vendor/lib/libwms.so
-vendor/lib/libwqe.so
-vendor/lib/libxml.so
 vendor/lib64/lib-dplmedia.so|e3ca6cc37d0da61ad02e50ec0cc7482d3e20cf17
 vendor/lib64/lib-uceservice.so|3d782c0bbcc3727541ffa63a887060cdf559d916
 vendor/lib64/libadropbox.so|22c68f8fe4d9cddabe3f2db07954bab55a60aca6
@@ -1350,5 +1340,3 @@ vendor/lib64/libbccQTI.so|af528ae651c25b080e73710c0a1759619767d651
 vendor/lib64/libfeedbackhandler.so|0a670f30d8163c8c24f85beecbb58d00d3427160
 vendor/lib64/liblqe.so|8f261ff792f4f98e6241fe69f821aae03bd15beb
 vendor/lib64/libscalar.so|94ebef877b7ea56e94d5749303dd832e3a013145
-vendor/lib64/libulp2.so|1a92023fbe40d5042239f3efbdcd82f3299e8b17
-vendor/lib64/libxml.so|db95d17cf4952f51354bbd7015f9d62e681aebb3
