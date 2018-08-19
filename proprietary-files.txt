@@ -48,6 +48,7 @@ vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
 
 # Camera
+vendor/lib/libadvalgcore.so
 vendor/lib/lib-imscamera.so
 vendor/lib/libYuvSkia.so
 vendor/lib/lib_mottof.so
@@ -65,8 +66,11 @@ vendor/lib/libjni_sharpshooter.so
 vendor/lib/libjni_trueportrait.so
 vendor/lib/libjni_truescanner_v2.so
 vendor/lib/libjni_ubifocus.so
+vendor/lib/libjscore.so
 vendor/lib/libzaf_algs.so
 vendor/lib/libzaf_core.so
+vendor/lib/libmbs.so
+vendor/lib/libmpbase.so
 vendor/lib/libmot-qc-fd-offline.so
 vendor/lib/libmot_lux_standardization.so
 vendor/lib/libqvrcamera_client.so
@@ -526,6 +530,11 @@ vendor/lib64/lib-imscmservice.so|8a98d82099cfc3e0f0e7fff044b0892757714440
 vendor/lib64/libimscamera_jni.so|3e53b8d01268da279829abbf7c1b93e5a4179d92
 vendor/lib64/libmmcamera_mot_imx362.so|8e0936030816d0ead102ce8503a184f9db648a40
 vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so|be0d5086a9938eb1e01884aa32ce621895bc533b
+vendor/lib64/libjni_panorama.so
+vendor/lib64/libjni_blurbuster.so
+vendor/lib64/libjni_chromaflash.so
+vendor/lib64/libjni_sharpshooter.so
+vendor/lib64/libjni_trackingfocus.so
 
 # Camera -Firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -843,6 +852,7 @@ vendor/lib/libmot_gpu_mapper.so
 vendor/lib/libq3dtools_adreno.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
+vendor/lib/libscalar.so
 vendor/lib/libsd_sdk_display.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
@@ -886,6 +896,7 @@ vendor/lib64/libmm-qdcm.so|c7cfb4d3d324d2a8f04d3039536908085dc7eab2
 vendor/lib64/libq3dtools_adreno.so|4683c89d2d957eb7795349010370e66bdb8c639c
 vendor/lib64/librs_adreno.so|8a2a9d68fa050668bee4046d6e9bfcdcfb11401d
 vendor/lib64/librs_adreno_sha1.so|c719927929d9ba27c88b5c2466d14273a189fbb9
+vendor/lib64/libscalar.so
 vendor/lib64/libsd_sdk_display.so|c9cac6d02276877fccf01cf80cf1947de9fb2424
 vendor/lib64/libsdm-color.so|031e4ee4fd10edaac872aff27ec3ee24b5e16c1a
 vendor/lib64/libsdm-diag.so|e27a62468b4ba69f4b277ba0cde40045a717cd65
