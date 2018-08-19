@@ -923,6 +923,16 @@ vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so|d7892f108d051a19383b20ff24146
 vendor/lib/hw/keystore.msm8953.so
 vendor/lib64/hw/keystore.msm8953.so|a8901a748f3187696a95acc87087806b0a361c7e
 
+# Listen
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs-osal.so
+vendor/lib/libgcs.so
+vendor/lib64/libgcs-calwrapper.so
+vendor/lib64/libgcs-ipc.so
+vendor/lib64/libgcs-osal.so
+vendor/lib64/libgcs.so
+
 # Media
 vendor/bin/vpplibraryfunctionaltest
 vendor/bin/vpplibraryunittest
