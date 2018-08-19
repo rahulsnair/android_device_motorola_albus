@@ -1012,6 +1012,9 @@ vendor/lib64/libmotext_inf.so|51195211345dac45ba63bb5a0a8ea45349d527d0
 # NFC
 vendor/firmware/libpn548ad_fw.so
 
+# Offmode charging
+vendor/bin/charge_only_mode
+
 # Perf
 -framework/QPerformance.jar
 lib64/vendor.qti.hardware.perf@1.0.so|5b76341219310d268b0482f1b18d58fdb74780bb
@@ -1047,13 +1050,6 @@ vendor/etc/permissions/embms.xml
 
 # Postprocessing
 vendor/lib64/libdisp-aba.so
-
-# Power
-bin/charge_only_mode
-lib64/vendor.qti.esepowermanager@1.0.so|ef726321ead49d2e9b14d60db9212ea715967dd0
-vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|b4ed33b07bda98079a804a7c689ca146e707d79d
-vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
-vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so|fa7dccc3c7cc93624692d13c1ef382518470e22a
 
 # Priv-app
 -priv-app/atfwd/atfwd.apk
