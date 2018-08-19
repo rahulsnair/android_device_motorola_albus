@@ -831,8 +831,6 @@ vendor/lib/libc2d30-a3xx.so
 vendor/lib/libc2d30-a4xx.so
 vendor/lib/libc2d30-a5xx.so
 vendor/lib/libc2d30_bltlib.so
-vendor/lib/libdisp-aba.so
-vendor/lib/libgpustats.so
 vendor/lib/libgralloc1.so
 vendor/lib/libgsl.so
 vendor/lib/libhdr_tm.so
@@ -879,8 +877,6 @@ vendor/lib64/libc2d30-a3xx.so|8fe03aa03aebfc8e5ad4b441af13abb348e63eea
 vendor/lib64/libc2d30-a4xx.so|09184d5f2e0dd05a157b002c937576d524aefe55
 vendor/lib64/libc2d30-a5xx.so|eb319e3e40ff53e1be84455592b4c5129da53513
 vendor/lib64/libc2d30_bltlib.so|308c848d5690e37edb7efb8bca4d2e60c77ded8d
-vendor/lib64/libdisp-aba.so|fc7f1b0104c05fb8b9bec65778542f3a79fec035
-vendor/lib64/libgpustats.so|02800013cce914aae5a529eef1e0cf36673a99e7
 vendor/lib64/libgsl.so|eb72f62dd6016cf7fa735c748db79bdfa07845e5
 vendor/lib64/libhdr_tm.so|b8d140f6ae4ac8e8c4f4762e7a44b85082b969df
 vendor/lib64/libllvm-glnext.so|907a9db4ee1e08429e8a599518b65f14ce3b9d73
@@ -1054,6 +1050,9 @@ etc/xtra_root_cert.pem
 vendor/etc/permissions/com.motorola.aov.xml
 vendor/etc/permissions/com.motorola.moto.xml
 vendor/etc/permissions/embms.xml
+
+# Postprocessing
+vendor/lib64/libdisp-aba.so
 
 # Power
 bin/charge_only_mode
