@@ -1252,7 +1252,6 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|cda7a4da8436db7a71496fbc6b75
 lib/android.hardware.sensors@1.0.so
 lib/libiio.so
 lib64/libiio.so|70dadfd190d0ed1244f9b0ca31d7e2d90bbcae3b
-vendor/bin/motosh
 vendor/bin/sensors.qcom|cee828d7e3d14d67af7a3880e8aa7c003f4991e4
 vendor/lib/lib_motsensorlistener.so
 vendor/lib/libmotocalibration.so
