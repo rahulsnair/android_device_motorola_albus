@@ -1001,7 +1001,7 @@ vendor/lib/mmi_wifi.so
 vendor/lib/libmmi.so
 
 # MOTOMOD
--priv-app/ModFmwkProxyService/ModFmwkProxyService.apk
+-priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|36fdc66b39643433d2ffa46c986e300c6e6f7288
 -priv-app/ModService/ModService.apk;PRESIGNED
 -priv-app/ProjectorApp/ProjectorApp.apk;PRESIGNED
 etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf
