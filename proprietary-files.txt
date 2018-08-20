@@ -772,7 +772,6 @@ vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
-vendor/lib64/libquipc_os_api.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libulp2.so
 vendor/lib64/libxtadapter.so
@@ -1084,6 +1083,9 @@ vendor/lib64/libdisp-aba.so
 # QMI
 etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
 etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
+lib/libqmi_cci_system.so
+lib64/libqdMetaData.system.so|2c411a0944271dd427cc90b13fe63940b70e270a
+vendor/lib64/libqdMetaData.system.so|2c411a0944271dd427cc90b13fe63940b70e270a
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
 -vendor/lib/libdsi_netctrl.so
@@ -1098,7 +1100,11 @@ vendor/lib/libqmi.so
 vendor/lib/libqmi_client_helper.so
 vendor/lib/libqmi_client_qmux.so
 -vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_csi.so
+vendor/lib/libqmiservices.so
+vendor/lib64/libqmiservices.so
+vendor/lib64/libdiag_system.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/libsmemlog.so
@@ -1111,7 +1117,7 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
 vendor/lib64/libqmi.so
--vendor/lib64/libqmi_cci.so
+vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_client_helper.so
 vendor/lib64/libqmi_client_qmux.so
 -vendor/lib64/libqmi_common_so.so
@@ -1119,6 +1125,8 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libquipc_os_api.so
 vendor/lib64/libsmemlog.so
+vendor/lib64/libDiagService.so|72c5d943a490b5da7ea140a1b4e7cba76dc97f34
+vendor/lib64/libdiagjni.so|97204c2a4b54653148b69588bf43dc3a51b2e500
 
 # Radio
 -app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1158,6 +1166,10 @@ vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/librilqmiservices.so
 vendor/lib/libsettings.so
 vendor/lib/libsystem_health_mon.so
+vendor/lib64/liblqe.so
+vendor/lib/liblqe.so
+lib/libqmimotext.so
+vendor/lib64/libqmimotext.so
 vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so
 vendor/lib64/lib-rcsimssjni.so|8229ef0c0f8ce827ddf3399aa9fd8e7b20e73d68
 vendor/lib64/lib-rcsjni.so|b7f2129fe1b9c439df6e01bb8d1be3f18877ce4c
@@ -1202,6 +1214,7 @@ vendor/bin/ims_rtp_daemon|46439ac81e5580bf46d0d161e6a63da6a204cdf4
 vendor/bin/imsdatadaemon|a3554d37244e79a91d4fde1a91a40c5dade9fbb1
 vendor/bin/imsqmidaemon|93ab259162d5c1c050d328e85af2e28c0165720b
 vendor/bin/imsrcsd|852bf86ee86975b2b820cf6ed0a22bc227a38103
+vendor/bin/ATFWD-daemon
 vendor/etc/permissions/ims.xml
 vendor/etc/permissions/imscm.xml
 vendor/etc/permissions/qti-vzw-ims-internal.xml
@@ -1211,6 +1224,8 @@ vendor/lib/lib-imsqimf.so
 vendor/lib/lib-imsvt.so
 vendor/lib/lib-imsxml.so
 vendor/lib/libimsmedia_jni.so
+vendor/lib/lib-dplmedia.so
+vendor/lib64/lib-dplmedia.so
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so|99dc68c27078ba073d8debc3f27f543dadc2cf62
 vendor/lib64/lib-ims-rcscmjni.so|e7cabacb457aacafe8f311b1f65309a8e0ba6c70
 vendor/lib64/lib-imsSDP.so|27b16f4c8273d0636d921d21904f16d03e1079f3
