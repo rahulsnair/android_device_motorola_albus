@@ -1305,8 +1305,6 @@ bin/radish
 lib/libadropbox.so
 lib/lib_mot_app6_metadata.so
 vendor/bin/ATFWD-daemon|1c592367aa2aa1e609b31ffacc416f69cd919ad5
-vendor/bin/akmd09912
-vendor/bin/esepmdaemon
 vendor/lib/hw/activity_recognition.msm8953.so
 vendor/lib/hw/flp.default.so
 vendor/lib/lib-dplmedia.so
