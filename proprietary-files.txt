@@ -46,6 +46,12 @@ vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b6526856cac0db84cc74d5f8b205a97a1928fa33
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so|a1fd8deaeb7eddc94823f11563c5be540e303c17
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|737b9bfb07f331b1d506af09ce0911be104e4023
+vendor/lib64/libldacBT_abr.so|26aa6bf2bac014ba80f09f835354093fbc209037
+vendor/lib64/libldacBT_enc.so|a5fb63c23a748ed3e1ddf39c6da353f3d2da88f1
 
 # Camera
 vendor/etc/permissions/com.motorola.camera2.xml
