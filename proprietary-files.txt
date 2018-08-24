@@ -54,6 +54,7 @@ vendor/lib64/libldacBT_abr.so|26aa6bf2bac014ba80f09f835354093fbc209037
 vendor/lib64/libldacBT_enc.so|a5fb63c23a748ed3e1ddf39c6da353f3d2da88f1
 
 # Camera
+vendor/lib/libmotocalibration.so
 vendor/etc/permissions/com.motorola.camera2.xml
 vendor/lib/libadvalgcore.so
 vendor/lib/lib-imscamera.so
@@ -1264,9 +1265,10 @@ vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.ssc.so
 vendor/lib/sensors.iio.so
 vendor/lib/sensors.tof.so
-vendor/lib/libiiio.so
+vendor/lib/libiio.so
 vendor/lib/lib_motsensorlistener.so
 vendor/lib64/hw/activity_recognition.msm8953.so
+vendor/lib64/hw/sensors.msm8953.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/libsns_low_lat_stream_stub.so
@@ -1274,7 +1276,7 @@ vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.iio.so
 vendor/lib64/sensors.tof.so
-vendor/lib64/libiiio.so
+vendor/lib64/libiio.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib/libsensorndkbridge.so
 
