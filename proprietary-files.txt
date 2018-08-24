@@ -1255,28 +1255,28 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f6113715ce15dd8c1400d8
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|cda7a4da8436db7a71496fbc6b75136d99af0658
 
 # Sensors
-lib/android.hardware.sensors@1.0.so
 lib/libiio.so
-lib64/libiio.so|70dadfd190d0ed1244f9b0ca31d7e2d90bbcae3b
-vendor/bin/sensors.qcom|cee828d7e3d14d67af7a3880e8aa7c003f4991e4
-vendor/lib/lib_motsensorlistener.so
-vendor/lib/libmotocalibration.so
+vendor/bin/sensors.qcom
+vendor/lib/hw/activity_recognition.msm8953.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/sensor_calibrate.so
-vendor/lib/sensors.iio.so
 vendor/lib/sensors.ssc.so
+vendor/lib/sensors.iio.so
 vendor/lib/sensors.tof.so
-vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
-vendor/lib64/hw/sensors.msm8953.so|9ae9692c2467f30605f9f68fb44e13bcd0b48e7e
-vendor/lib64/libsensor1.so|cdda19e9046308bb4804207ab9ea5a72e7f66a50
-vendor/lib64/libsensor_reg.so|19ab689abc1371915e1d58c6a913dd760535ee21
-vendor/lib64/libsensorndkbridge.so|fbc6c83c476f7aeccac89bfa6e3e68a5d284f5d5
-vendor/lib64/sensor_calibrate.so|59ee43a14513e4b12ce6f65a9ea0aa656488f872
-vendor/lib64/sensors.iio.so|518f631b66ce34167c76f66ac8a3e66ea348b2a8
-vendor/lib64/sensors.ssc.so|8cd1a03103d1bb6bf94b95e49b3547c237f51787
-vendor/lib64/sensors.tof.so|b0d62f9aad25b71e4c5ebdf11cfd98ef93cfcfa0
+vendor/lib/libiiio.so
+vendor/lib/lib_motsensorlistener.so
+vendor/lib64/hw/activity_recognition.msm8953.so
+vendor/lib64/libsensor1.so
+vendor/lib64/libsensor_reg.so
+vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/sensor_calibrate.so
+vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.iio.so
+vendor/lib64/sensors.tof.so
+vendor/lib64/libiiio.so
+vendor/lib64/libsensorndkbridge.so
+vendor/lib/libsensorndkbridge.so
 
 # Thermal
 vendor/bin/thermal-engine
