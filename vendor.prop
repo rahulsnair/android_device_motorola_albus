@@ -2,9 +2,6 @@
 # vendor.prop for albus
 #
 
-# Navigation bar In some GSI nav bar isn't enabled so force it
-qemu.hw.mainkeys=0
-
 # Audio
 voice.playback.conc.disabled=true
 voice.record.conc.disabled=false
