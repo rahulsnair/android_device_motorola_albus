@@ -167,8 +167,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libdisplayconfig \
     libqdMetaData.system \
-    vendor.display.config@1.0 \
-    vendor.display.config@1.0_vendor
+    vendor.display.config@1.2
 
 PRODUCT_PACKAGES += android.hardware.media.omx
 
