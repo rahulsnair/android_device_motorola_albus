@@ -778,6 +778,7 @@ vendor/lib64/libxtwifi_ulp_adaptor.so|078124cc018badf89c1f5588e9102e9f7c034da2
 vendor/lib64/vendor.qti.gnss@1.0_vendor.so|057a56a22493343425c8b9019207fb33311d9035
 
 # Graphics
+vendor/lib/libgui_vendor.so
 -framework/com.qti.snapdragon.sdk.display.jar
 -vendor/lib/libsdm-disp-vndapis.so
 -vendor/lib64/libsdm-disp-vndapis.so|6e3badb9c989fe0a1a646c4c6e360d94839b123e
