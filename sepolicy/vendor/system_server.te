@@ -24,4 +24,4 @@ allow system_server vendor_file:file { getattr open read execute };
 
 allow system_server fpc_extension_service:hwservice_manager find;
 
-get_prop(system_server, alarm_boot_prop)
+#get_prop(system_server, alarm_boot_prop)
