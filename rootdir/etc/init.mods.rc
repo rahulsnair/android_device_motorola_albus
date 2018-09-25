@@ -1,4 +1,4 @@
-service mods_camd /vendor/bin/mods_camd
+service vendor.mods_camd /vendor/bin/mods_camd
     class late_start
     user camera
     group camera system inet input graphics
