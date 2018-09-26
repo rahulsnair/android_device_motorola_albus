@@ -380,6 +380,8 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
+    libsensorndkbridge \
+    libshim_ril \
     libprotobuf-cpp-full \
     libxml2
 
