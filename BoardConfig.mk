@@ -246,6 +246,7 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Shim
 TARGET_LD_SHIM_LIBS := \
+    /vendorr/lib/libmot_gpu_mapper.so|libgpu_mapper_shim.so \
     /vendor/lib64/vendor.qti.gnss@1.0_vendor.so|libgnss_shim.so
 
 # Releasetools

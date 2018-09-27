@@ -131,6 +131,7 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     libbson.vendor \
+    libgpu_mapper_shim \
     libxml2 \
     Camera2
 
