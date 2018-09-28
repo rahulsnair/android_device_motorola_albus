@@ -740,7 +740,9 @@ vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib64/hw/gatekeeper.msm8953.so|4d81962cd8d3debc98a479b27553de7f55b1d93a
 
 # GPS
+vendor/lib/libloc_api_v02.so
 -vendor/lib64/libloc_api_v02.so|2418566622353e74a5ebf79a63bc32a74325b873
+vendor/lib64/libloc_core.so
 vendor/bin/DR_AP_Service|b2a9d91ebb0bdefe47792039942532a2f842019b
 vendor/bin/garden_app|6127ea8179f4376c00c475c4a4d6dacd71bf1ef4
 vendor/bin/hw/vendor.qti.gnss@1.0-service|bdf23fe2af07c2afb74721023431446104fd828d
@@ -750,7 +752,7 @@ vendor/bin/slim_daemon|0a03406c8ec8fd17f9d0d770113736fbd200c4d3
 vendor/bin/xtra-daemon|26599c9c3ba0984c15c83b77305c1eb154ac39a5
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 vendor/lib/hw/vendor.qti.gnss@1.0-impl.so
-vendor/lib/vendor.qti.gnss@1.0_vendor.so
+vendor/lib/vendor.qti.gnss@1.0.so
 vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so|7c40a3f02f8c022333655b41f9c5ddc636dba85f
 vendor/lib64/libDRPlugin.so|d4f1127ed8f98011fe9687d40e8942e5738f4273
 vendor/lib64/lib_drplugin_server.so|3621ce48b9519c7388951767dd59a01ca8d1c19c
@@ -775,7 +777,21 @@ vendor/lib64/libslimclient.so|36f861cf90c749d4be51fad132f8eb1e2be427a7
 vendor/lib64/libulp2.so|efc45da0508cbf7ebe6c358b500037580557f36c
 vendor/lib64/libxtadapter.so|9a8fbd106994aaaf380be883fa2ef37d04e20401
 vendor/lib64/libxtwifi_ulp_adaptor.so|078124cc018badf89c1f5588e9102e9f7c034da2
-vendor/lib64/vendor.qti.gnss@1.0_vendor.so|057a56a22493343425c8b9019207fb33311d9035
+vendor/lib64/vendor.qti.gnss@1.0.so|057a56a22493343425c8b9019207fb33311d9035
+lib/vendor.qti.gnss@1.0.so
+lib/vendor.qti.gnss@1.1.so
+lib/vendor.qti.gnss@1.2.so
+lib/vendor.qti.gnss@2.0.so
+lib/vendor.qti.gnss@2.1.so
+lib64/vendor.qti.gnss@1.0.so
+lib64/vendor.qti.gnss@1.1.so
+lib64/vendor.qti.gnss@1.2.so
+lib64/vendor.qti.gnss@2.0.so
+lib64/vendor.qti.gnss@2.1.so
+vendor/lib/hw/android.hardware.gnss@1.1-impl-qti.so
+vendor/lib64/hw/android.hardware.gnss@1.1-impl-qti.so
+vendor/lib/libgps.utils.so
+vendor/lib64/libgps.utils.so
 
 # Graphics
 vendor/lib/libgui_vendor.so
