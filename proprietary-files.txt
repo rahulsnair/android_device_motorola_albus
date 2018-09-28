@@ -70,6 +70,7 @@ vendor/lib/hw/libcamera_mods_legacy_hal.so
 vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/motorola.hardware.mods_camera.provider@2.4-impl.so
 vendor/lib/libYuvSkia.so
+vendor/lib/libskia.so
 vendor/lib/lib_mot_led_calibration.so
 vendor/lib/libactuator_dw9718s.so
 vendor/lib/libactuator_dw9763.so
