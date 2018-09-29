@@ -2,6 +2,7 @@
 
 namespace android {
     extern "C" void _ZN7android12ConsumerBase7setNameERKNS_7String8E(const String8& name);
+    extern "C" void _ZN8SkBitmap14tryAllocPixelsEPNS_9AllocatorE() {}
     extern "C" void _ZN7android9StopWatchC1EPKci(const char* name, int clock);
 
     extern "C" void _ZN7android5FenceD1Ev() {}
