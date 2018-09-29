@@ -435,6 +435,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
+    ipacm \
+    ipacm-diag \
+    IPACM_cfg.xml \
     libqsap_sdk \
     libwpa_client \
     wcnss_service \
