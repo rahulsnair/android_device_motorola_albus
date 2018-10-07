@@ -654,10 +654,10 @@ service vendor.rmt_storage /vendor/bin/rmt_storage
     shutdown critical
     writepid /dev/cpuset/system-background/tasks
 
-on property:wc_transport.start_fmhci=true
+on property:vendor.wc_transport.start_fmhci=true
     start fmhal_service
 
-on property:wc_transport.start_fmhci=false
+on property:vendor.wc_transport.start_fmhci=false
     stop fmhal_service
 
 service start_hci_filter /system/bin/wcnss_filter

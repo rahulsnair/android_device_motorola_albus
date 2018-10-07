@@ -57,7 +57,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1 \
-    qcom.bluetooth.soc=smd \
+    vendor.qcom.bluetooth.soc=smd \
     qcom.bt.le_dev_pwr_class=1 \
     ro.cutoff_voltage_mv=3400 \
     ro.bluetooth.hfp.ver=1.7 \
