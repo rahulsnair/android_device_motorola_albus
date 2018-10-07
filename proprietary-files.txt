@@ -1170,7 +1170,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|6b4241e34
 vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS
--app/ims/ims.apk
+-app/ims/ims.apk|406f0c50b44480789072222a6ba120894dc02394
 -app/imssettings/imssettings.apk
 -framework/com.qualcomm.qti.imscmservice@1.0-java.jar
 -framework/imscmlibrary.jar
