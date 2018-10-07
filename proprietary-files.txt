@@ -55,9 +55,10 @@ vendor/lib64/libldacBT_abr.so|26aa6bf2bac014ba80f09f835354093fbc209037
 vendor/lib64/libldacBT_enc.so|a5fb63c23a748ed3e1ddf39c6da353f3d2da88f1
 
 # Camera
-vendor/etc/permissions/com.motorola.camera2.xml
 vendor/bin/hw/motorola.hardware.camera.provider@2.4-service
+vendor/lib/motorola.hardware.camera.provider@2.4.so
 vendor/bin/hw/motorola.hardware.mods_camera.provider@2.4-service
+vendor/bin/hw/motorola.hardware.camera.provider@2.4-service
 vendor/bin/mm-qcamera-app
 vendor/bin/mm-qcamera-daemon
 vendor/bin/vl53l1_daemon
@@ -65,11 +66,11 @@ vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc
 vendor/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc
 vendor/etc/permissions/com.motorola.cameraone.xml
 vendor/etc/permissions/com.motorola.moto.xml
+vendor/etc/permissions/com.motorola.camera2.xml
 vendor/lib/hw/camera.msm8953.so
 vendor/lib/hw/libcamera_mods_legacy_hal.so
 vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/motorola.hardware.mods_camera.provider@2.4-impl.so
-vendor/lib/libYuvSkia.so
 vendor/lib/lib_mot_led_calibration.so
 vendor/lib/libactuator_dw9718s.so
 vendor/lib/libactuator_dw9763.so
@@ -510,7 +511,7 @@ vendor/lib/libzaf_core.so|ba290700d210aaaf0bfac3b805b068c47bb9cfb8
 vendor/lib/motcamera.device@1.0-impl.so
 vendor/lib/motorola.hardware.camera.device@1.0.so
 vendor/lib/motorola.hardware.camera.device@1.0_vendor.so
-vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so
+vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so||f48d16e1e3f777a4fb0897ff2f667d98542b15df
 vendor/lib/motorola.hardware.mods_camera.provider@2.4.so
 vendor/lib64/lib-imscamera.so|2bd3687fccd55ff5ce393ae09b880b865a32621c
 vendor/lib64/lib-imscmservice.so|8a98d82099cfc3e0f0e7fff044b0892757714440
