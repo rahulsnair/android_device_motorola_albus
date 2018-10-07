@@ -450,7 +450,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libqsapshim
+    libqsap_shim
 
 #Thermal
 PRODUCT_PACKAGES += android.hardware.thermal@1.0-impl \
