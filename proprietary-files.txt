@@ -569,7 +569,7 @@ vendor/lib64/libjni_sharpshooter.so|8f9f40e56acda7cec315647fe76cda2468477f70
 vendor/lib64/libjni_trackingfocus.so|3b56cb984f45acd6f7b22b7cede9dfb45bbaf2b2
 
 # CNE
--priv-app/CNEService/CNEService.apk
+-priv-app/CNEService/CNEService.apk||69da7058ac27e0af3d498816bc04773c47b0ebfc
 -vendor/lib/com.quicinc.cne.api@1.0.so
 -vendor/lib/com.quicinc.cne.constants@1.0.so
 -vendor/lib/com.quicinc.cne.constants@2.0.so
