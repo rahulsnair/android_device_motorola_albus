@@ -1241,7 +1241,6 @@ vendor/lib/lib_motsensorlistener.so
 vendor/lib/libiio.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.iio.so
 vendor/lib/sensors.ssc.so
@@ -1251,7 +1250,6 @@ vendor/lib64/hw/sensors.msm8953.so|9ae9692c2467f30605f9f68fb44e13bcd0b48e7e
 vendor/lib64/libiio.so|fab317a4ca3cbce6df25cc190f1fd7642c682d7c
 vendor/lib64/libsensor1.so|b679da063bc3716185d3abfc94c0afc514284a91
 vendor/lib64/libsensor_reg.so|0d963c1b4909be75c909cdfb9195439e414c68c0
-vendor/lib64/libsensorndkbridge.so|fbc6c83c476f7aeccac89bfa6e3e68a5d284f5d5
 vendor/lib64/libsns_low_lat_stream_stub.so|e32b4601f86923ff6dfafae15014c8c3807fd958
 vendor/lib64/sensor_calibrate.so|a705eab941dcd84870bffd97f2067334ce23ef61
 vendor/lib64/sensors.iio.so|8a115a8a1087c0b8663f7bb47bba11f15f3a62aa
